@@ -8,7 +8,7 @@
 <h4> V user code begin 3 - zanka while(1) - zapišite ukaz za utripanje modre LED. </h4>
 <p> HAL_GPIO_TogglePin(GPIOC,GPIO_PIN8);. </p>
 <h4> V to zanko dodajte ukaz za zakasnitev z funkcijo Delay iz knjižnice HAL, in sicer pol sekunde.</h4>
-<p> HAL_Delay(500).</p
+<p> HAL_Delay(500).</p>
 <h4> Opazujte delovanje (utripanje modre LED). Kaj se zgodi, ko pritisnemo na modro tipko na STM32F0? </h4>
 <p> Modra LED vedno utripa, ko pa pritisnemo na modro tipko se pa prižge še zelena LED. </p>
 <h4> Ali pritisk na modro tipko vpliva na utripanje modre LED in zakaj? </h4>
